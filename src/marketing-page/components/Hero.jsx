@@ -98,49 +98,19 @@ export default function Hero() {
             I personally suffer from ADHD, and wanted to build a tool that could keep me accountable to myself
             and minimize the time spent on important tasks, so I can get back to what matters.
           </Typography>
-          <Stack
-            direction={{ xs: 'column', sm: 'row' }}
-            spacing={1}
-            useFlexGap
-            sx={{ pt: 2, width: { xs: '100%', sm: '350px' } }}
+          <Button
+            variant="contained"
+            color="primary"
+            size="small"
+            sx={{ minWidth: 'fit-content', alignContent: 'center' }}
           >
-            <InputLabel htmlFor="email-hero" sx={visuallyHidden}>
-              Email
-            </InputLabel>
-            <TextField
-              id="email-hero"
-              hiddenLabel
-              size="small"
-              variant="outlined"
-              aria-label="Enter your email address"
-              placeholder="Your email address"
-              fullWidth
-              slotProps={{
-                htmlInput: {
-                  autoComplete: 'off',
-                  'aria-label': 'Enter your email address',
-                },
-              }}
-            />
-            <Button
-              variant="contained"
-              color="primary"
-              size="small"
-              sx={{ minWidth: 'fit-content' }}
-            >
-              Start now
-            </Button>
-          </Stack>
+            Get &quot;ScholarTime&quot; at the Chrome Web Store
+          </Button>
           <Typography
             variant="caption"
             color="text.secondary"
             sx={{ textAlign: 'center' }}
           >
-            By clicking &quot;Start now&quot; you agree to our&nbsp;
-            <Link href="#" color="primary">
-              Terms & Conditions
-            </Link>
-            .
           </Typography>
         </Stack>
       </Container>

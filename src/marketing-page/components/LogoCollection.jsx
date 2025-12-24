@@ -5,7 +5,6 @@ import { useColorScheme } from '@mui/material/styles';
 import githubLightMode from '../../assets/github-light-mode.svg'
 import githubDarkMode from '../../assets/github-dark-mode.svg'
 import Link from '@mui/material/Link';
-import googleChromeLogo from '../../assets/Google_Chrome-Logo.wine.svg'
 
 const darkModeLogos = [
   githubDarkMode,

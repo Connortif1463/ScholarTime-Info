@@ -52,19 +52,20 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="span" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+              How do I toggle the application so my browsing isn't restricted when I'm not working?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography
               variant="body2"
+              display="flex"
+              alignItems="left"
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              You can reach our customer support team by emailing&nbsp;
-              <Link href="mailto:support@email.com">support@email.com</Link>
-              &nbsp;or calling our toll-free number. We&apos;re here to assist you
-              promptly.
+              You can turn the application off or whitelist by pinning 
+              the extension and using the settings to either toggle the app, 
+              or to whitelist the site you want to visit.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -78,7 +79,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="span" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
+              Does ScholarTime track my browsing history or personal data?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -87,9 +88,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              Absolutely not! We offer a fast and free open source software, 
+              and have no interest in selling your data to pesky data brokers.
+              Your concern for online privacy and safety matches our own values of security and anonymity.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -103,7 +104,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="span" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              What makes ScholarTime stand out from other productivity extensions in the market?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -112,9 +113,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              Our extension defines itself through its open source repository,
+              its speedy and lightweight codebase, and its simplicity!
+              ScholarTime has one goal, and is just great at it. That's it.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -128,7 +129,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="span" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              Will ScholarTime continue development over time? Is it current?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -137,10 +138,11 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              ScholarTime will continue its development into 2026, 
+              but once the application reaches a place of sustainability,
+              we will likely focus on other projects. That being said,
+              the open source nature of the project, and the pull request
+              allowance on our github is meant to keep this application current.
             </Typography>
           </AccordionDetails>
         </Accordion>
