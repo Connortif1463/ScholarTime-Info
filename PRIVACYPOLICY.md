@@ -3,7 +3,7 @@
 **Last Updated: May 24, 2024**
 
 ## Introduction
-This privacy policy (“Privacy Policy“) governs the data collection practices of **Connor Fischetti** (“**ScholarTime**”, “us”, “we” and “our”) when you use our **ScholarTime** browser extension (the “Extension”) or visit our website, **https://connortif1463.github.io/ScholarTime-Info/** (the “Website”). Within this Privacy Policy, the Extension and Website are referred to as our “Services”.
+This privacy policy (“Privacy Policy“) governs the data collection practices of **Connor Fischetti Works** (“**ScholarTime**”, “us”, “we” and “our”) when you use our **ScholarTime** browser extension (the “Extension”) or visit our website, **https://connortif1463.github.io/ScholarTime-Info/** (the “Website”). Within this Privacy Policy, the Extension and Website are referred to as our “Services”.
 
 This Privacy Policy contains important disclosures on how we collect and use your information. Our foundational principle is that we are designed to **minimize data collection**. We do **not** collect, sell, or share your browsing history or the specific websites you visit. We encourage you to read this Privacy Policy carefully prior to using our Services.
 
