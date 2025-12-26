@@ -2,6 +2,7 @@ import './App.css'
 import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
+import { useState } from 'react'; // Import useState
 import AppTheme from './shared-theme/AppTheme';
 import AppAppBar from './marketing-page/components/AppAppBar';
 import Hero from './marketing-page/components/Hero';
@@ -17,10 +18,7 @@ const ThemeAwareDivider = styled(Divider)(({ theme }) => ({
   },
 }));
 
-
-
 function App(props) {
-
   return (
     <>
       <AppTheme {...props}>
