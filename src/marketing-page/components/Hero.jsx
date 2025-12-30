@@ -200,6 +200,7 @@ export default function Hero() {
           </Typography>
           
           <Button
+            href="https://chromewebstore.google.com/detail/nljmhdcljfgahijnbmjlaepddnmcgakc?utm_source=item-share-cb"
             variant="contained"
             color="primary"
             size="small"

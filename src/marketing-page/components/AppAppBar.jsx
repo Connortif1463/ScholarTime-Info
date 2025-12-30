@@ -147,6 +147,7 @@ export default function AppAppBar() {
             
             <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center' }}>
               <Button 
+                href="https://chromewebstore.google.com/detail/nljmhdcljfgahijnbmjlaepddnmcgakc?utm_source=item-share-cb"
                 variant="text" 
                 color="info" 
                 size="small"
